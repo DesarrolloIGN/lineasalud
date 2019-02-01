@@ -1,0 +1,93 @@
+/* /////////////////////////////////////////////////////////////////MAIN///////////////////////////////////////////////////////////////*/
+.imagen
+{
+      background-repeat:no-repeat;
+      height:100%;
+      width:100%;
+      background-position:center;
+      margin-left: auto; 
+      margin-right: auto;
+}
+@media (max-width: 984px) 
+{
+ #imgderecha
+    {
+        
+     display: none;
+    }
+    
+}
+
+
+
+
+
+
+#imgderecha
+{
+    background-position:center;
+}
+
+#texto1
+{
+    margin-top: -5%;
+}
+#logoabajo
+{
+    margin-left: 20%;
+}
+.container euro
+{
+    padding-top: 3%;
+}
+
+
+
+
+/* /////////////////////////////////////////////////////////////////STEP1///////////////////////////////////////////////////////////////*/
+
+#textostep1
+{
+    color: #65d6cb
+}
+#botonstep1
+{
+    background-color: #65d6cb
+}
+.p2m
+{
+    margin-top: 20%;
+}
+.p2
+{
+    margin-top: 2%;
+}
+
+/* /////////////////////////////////////////////////////////////////STEP2///////////////////////////////////////////////////////////////*/
+
+.p3
+{
+    margin-top: 62%;
+}
+#tugenero
+{
+    position: absolute;
+    margin-left: -5%;
+}
+
+/* /////////////////////////////////////////////////////////////////STEP3///////////////////////////////////////////////////////////////*/
+
+#si
+{
+    margin-top: 30%;
+    margin-left: -2.5%;
+}
+#no
+{
+    margin-top: 30%;
+    margin-left: -2.5%;
+}
+#preguntastep3
+{
+    position: absolute;
+}

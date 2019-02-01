@@ -1,0 +1,4 @@
+Recibido el: 2019-01-30 16:14:08
+Enviado por: 80.26.152.176 192.168.6.196
+Metodo: POST
+{"edad":"1","ec":"1","np":"1","dc":"1","cp":"11111","telefono":"699762248","nombre":"prueba prueba","utm_source":"","utm_medium":"","utm_campaign":"","utm_term":"","utm_content":"","id_buyer":"7"}
