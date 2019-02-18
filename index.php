@@ -1,10 +1,20 @@
+
+
 <!doctype html>
-<!--[if lt IE 7]>		<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>			<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>			<html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->	<html class="no-js" lang="zxx"> <!--<![endif]-->
-<head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+<!--[if lt IE 7]>		
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
+   <![endif]-->
+   <!--[if IE 7]>			
+   <html class="no-js lt-ie9 lt-ie8" lang="">
+      <![endif]-->
+      <!--[if IE 8]>			
+      <html class="no-js lt-ie9" lang="">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->	
+         <html class="no-js" lang="zxx">
+            <!--<![endif]-->
+            <head>
+ <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130595463-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -13,7 +23,7 @@ gtag('js', new Date());
 
 gtag('config', 'UA-130595463-1');
 </script>
-    <!-- Hotjar Tracking Code for https://lineasalud.es/ -->
+                <!-- Hotjar Tracking Code for https://lineasalud.es/ -->
 <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
@@ -24,7 +34,7 @@ gtag('config', 'UA-130595463-1');
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 775191470 -->
+                <!-- Global site tag (gtag.js) - Google Ads: 775191470 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-775191470"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -34,185 +44,603 @@ gtag('config', 'UA-130595463-1');
   gtag('config', 'AW-775191470');
 </script>
 
+               <meta charset="utf-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <title>Linea salud</title>
+   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+               <link href="css\estilos.css" rel="stylesheet" type="text/css" />
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <link rel="apple-touch-icon" href="apple-touch-icon.png">
+               <link rel="stylesheet" href="css\bootstrap.min.css">
+               <link rel="stylesheet" href="css\normalize.css">
+               <link rel="stylesheet" href="css\font-awesome.min.css">
+               <link rel="stylesheet" href="css\icomoon.css">
+               <link rel="stylesheet" href="css\pogoslider.css">
+               <link rel="stylesheet" href="css\scrollbar.css">
+               <link rel="stylesheet" href="css\prettyPhoto.css">
+               <link rel="stylesheet" href="css\owl.carousel.css">
+               <link rel="stylesheet" href="css\transitions.css">
+               <link rel="stylesheet" href="css\main.css">
+               <link rel="stylesheet" href="css\color.css">
+               <link rel="stylesheet" href="css\responsive.css">
+               <script src="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js"></script>
+                <style>
+                body {font-family: Verdana, Helvetica, sans-serif;}
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Linea Salud</title>
-    <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
-	<link href="css\estilos.css" rel="stylesheet" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="stylesheet" href="css\bootstrap.min.css">
-	<link rel="stylesheet" href="css\normalize.css">
-	<link rel="stylesheet" href="css\font-awesome.min.css">
-	<link rel="stylesheet" href="css\icomoon.css">
-	<link rel="stylesheet" href="css\pogoslider.css">
-	<link rel="stylesheet" href="css\scrollbar.css">
-	<link rel="stylesheet" href="css\prettyPhoto.css">
-	<link rel="stylesheet" href="css\owl.carousel.css">
-	<link rel="stylesheet" href="css\transitions.css">
-	<link rel="stylesheet" href="css\main.css">
-	<link rel="stylesheet" href="css\color.css">
-	<link rel="stylesheet" href="css\responsive.css">
-	<script src="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js"></script>
-</head>
-<body id="tg-body" class="tg-home" style="">
+                /* The Modal (background) */
+                .modal {
+                  display: none; /* Hidden by default */
+                  position: fixed; /* Stay in place */
+                  z-index: 1; /* Sit on top */
+                  padding-top: 100px; /* Location of the box */
+                  left: 0;
+                  top: 0;
+                  width: 100%; /* Full width */
+                  height: 100%; /* Full height */
+                  overflow: auto; /* Enable scroll if needed */
+                  background-color: rgb(0,0,0); /* Fallback color */
+                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                }
 
-	
-		<div id="arriba1" class="tg-homeslider tg-haslayout" style="padding: 4% 0px 0px 0px;">
-			<img src="imagenes/arriba.png" alt="arriba"  style="width: 70%;"  class="imagen"> 
+                /* Modal Content */
+                .modal-content {
+                  background-color: #fefefe;
+                  margin: auto;
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 60%;
+                }
+
+                /* The Close Button */
+                .close,.close2 {
+                  color: #aaaaaa;
+                  float: right;
+                  font-size: 28px;
+                  font-weight: bold;
+                }
+
+                .close:hover,
+                .close:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                    .close2:hover,
+                .close2:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                </style>
+            </head>
+            <body id="tg-body" class="tg-home">
+                <div id="myModal2" class="modal">
+                                        <div class="modal-content">
+                                            <span class="close2">&times;</span>
+                                            <center><br><h5><strong>NECESITAMOS TU CONSENTIMIENTO</strong></h5><p style="color:black;">Acepto los <a target="_blank" href='tyc.html'> términos y condiciones</a> y <a href='pp.html' target="_blank">política de privacidad</a> de este sitio web.<br>Acepto recibir ofertas y publicidad de este sitio web por email, contacto telefónico y/o SMS.<br>Acepto recibir ofertas y publicidad por email, contacto teléfonico y/o SMS por los colaboradores de este sitio web.</p></center>
+                                        </div>
+                                     </div>
+                      <center><button id="myBtn2"  style="display:none;" type="button" class="btn btn-danger">Quiero informarme sobre un seguro de salud</button></center>
+                <div class="tg-sidenavholder">
+		<div id="tg-sidenavigation" class="tg-sidenavigation">
+			<a class="tg-btnclosenav navbar-toggle" href="javascript:void(0);" data-toggle="collapse" data-target="#tg-sidenavigation" aria-expanded="true"><i class="icon-arrow-right"></i></a>
+			<div class="tg-navscrollbar">
+				<div class="tg-logoarea" style="display:none;" >
+					<strong class="tg-logo"><a href="index-1.htm"><img src="images\logob.png" alt="company logo here"></a></strong>
+				</div>
+				<div id="tg-navigation" class="tg-navigation">
+					<ul>
+						<li><img src="imagenes/step1/v1.png" alt="arriba" > </li>
+						<li><img src="imagenes/step1/v2.png" alt="arriba" > </li>
+                        <li><img src="imagenes/step1/v3.png" alt="arriba" > </li>
+                        <li><img src="imagenes/step1/v4.png" alt="arriba" > </li>
+                    </ul>
+				</div>
+             </div>
 		</div>
-        <style>
+	</div>
+             
+                <div id="tg-wrapper" class="tg-wrapper tg-haslayout" >
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="tg-header" class="tg-header tg-fixedheader tg-haslayout">
+			<nav id="tg-nav" class="tg-nav">
+				<div class="navbar-header" style="background-color: #001e31;">
+                    
+					<button type="button" id= "botonstep1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-sidenavigation" aria-expanded="false" style="display:none;" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						
+					</div>
+				</div>
+			</div>
+		</header>
+                    
+               <div style="width: 100%; height: 65vh; background-size: cover;" class="imagen">
+                  <div class="tg-homeslider tg-haslayout">
+                      <div id="arriba1">
+                     <img src="imagenes/arriba.png" alt="arriba" class="imagen"> 
+                          
+                          </div>
+                      <style>
+        @media (max-width: 400px) 
+{
+
+    
+    #tg-wrapper {
+	margin-top:-20%;
+	
+}
+    
+  
+    
+}
+        </style>
+                      <style>
         @media (max-width: 600px) 
 {
  #arriba1
     {
         width: 180%;
 
-        padding-top: 10%;
+        
 
-        background-color: #ffffff;
+        background-color: #525455;
      
     }
+    
+
+    
+    #abajodiv
+    {
+        position: relative;
+    }
+    
+    #marcasid
+    {
+        display: none;
+    }
+    #selloid
+    {
+        display: none;
+    }
+
+    
+}
+        </style>
+                      <style>
+        @media (min-width: 600px) 
+{
+
+    
+    #abajodiv
+    {
+        position: absolute;
+        margin-top: 20%;
+    }
+    
+    #marcasidp
+    {
+        display: none;
+    }
+    
+    #selloidp
+    {
+        display: none;
+    }
+
+    
+}
+        </style>
+                      
+                      <style>
+        @media (min-width: 970px) 
+{
+ 
+
+#textonos
+    {
+        margin-left: 12vw;
+    }
+    
+    
+
     
 }
         </style>
 
-			<section>
-				<div class="container" style="margin-top: -4%;">
-					<div class="row">
-						
-							<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-                                <center><h3  style="color:#676767;" id="titulo">El mejor comparador de ofertas de Seguros de Salud
-</h3></center>
-                                <img src="imagenes/babycolor.png" >
-                                <!--<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" style="margin-top: 1%;background-image: url('imagenes/babygris.jpg');background-repeat: no-repeat;background-size: cover;" >-->
-								
-									<!--<img src="imagenes/principal.png" alt="image description">-->
-                                
-								
-                        
+                    
+                       	<div>
+                      <div class="tg-homeslider tg-haslayout">
+                  
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                            <div><center><h3>¡Encontramos<strong> la mejor oferta </strong>
+ en <strong>seguros de salud</strong>!</h3></center>
+            </div>
+                        </div>
+                         <br>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+                     <div class="container" id="grande">
+                        <div class="row">
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"  style="margin-top:5%" >
+                             <br>
+                               
+                             <h4><img src="imagenes/check.png"> En solo dos pasos</h4><br>
+                             <h4><img src="imagenes/check.png"> Sin Compromisos</h4><br>
+                             <h4><img src="imagenes/check.png"> Ajustado a sus necesidades</h4>
+                           
+                            </div>
                             
-                         
-                                <center><h3  style="color:#676767;" id="titulo">Escogemos tu aseguradora ideal comparando en tiempo real:
-
-
-</h3></center>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                             <center><img src="imagenes/step1/n1.png"  class="p1" style="width: 60%;height: 60%;"><br><p style="font-size:120%;color:#676767;">Mejor cuadro médico</p></center>
-                         </div>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                             <center><img src="imagenes/step1/n2.png" class="p1"  style="width: 60%;height: 60%;"><br><p style="font-size:120%;color:#676767;">Mejor precio garantizado
-</p></center>
-                         </div>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                             <center><img src="imagenes/step1/n3.png"  class="p1" style="width: 60%;height: 60%;"><br><p style="font-size:120%;color:#676767;">Cercanía
-</p></center>
-                         </div>
-                                <div id=final1 class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-									<center><button class="p1"><img src="imagenes/final_a.png" alt="image description"></button></center>
+                           <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                          
+                           </div>
+                           <div class="col-xs-0 col-sm-5 col-md-5 col-lg-5" >
+                               
+                               <form action="ejemplo.php" method="get" >
+                               <div class="form-group" style="margin-top:15%" >
+                                   <div style="background-image: url('imagenes/pancarta.png');background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-position: center;
+margin-left: auto;
+margin-right: auto;">
                                     
-                                   <button id=finalabajo  class="p1" style="position: fixed;bottom: 0px;left:0%;width: 100vw; "><img src="imagenes/final_a.png" alt="image description"></button>
-
-								</div>
-                                
-                                
-								<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-								
-								</div>
-                      
-							</div>
-							<div id=menuderecha class="col-xs-12 col-sm-12 col-md-3 col-lg-3" >
-								<div id="imgderecha" style="margin-top: 2%;">
+                                  
+                                      
+                                  <p><center>EDAD<br>
+    <input type="radio" style="display:none;" name="edad" id="edad"  value="1">  <button class="edad" type="button">-40</button> 
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">40-45</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">45-50</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="4">  <button class="edad" type="button">+60</button> 
+   </center></p> 
+                                   
+                                   <p><center>¿TIENES YA UN SEGURO DE SALUD?<br>
+    <input type="radio" style="display:none;" name="dc" id="dc" value="1">  <button class="dc" type="button">Sí</button> 
+    <input type="radio" style="display:none;"  name="dc" id="dc" value="2">  <button class="dc" type="button">No</button>
+    </center></p> 
+    
+                                   <p><center>ESTADO CIVIL<br>
+    <input type="radio" style="display:none;" name="ec" id="ec" value="1">  <button class="ec" type="button">Soltero</button> 
+    <input type="radio" style="display:none;"  name="ec" id="ec" value="2">  <button class="ec" type="button">Casado</button>
+    </center></p>
+                                   
+                                   <p><center>PERSONAS A ASEGURAR<br>
+    <input type="radio" style="display:none;" name="np" id="np" value="1">  <button class="np" type="button">1</button> 
+    <input type="radio" style="display:none;"  name="np" id="np" value="2">  <button class="np" type="button">2</button>
+    <input type="radio" style="display:none;"  name="np" id="np" value="3">  <button class="np" type="button">3</button>
+    <input type="radio" style="display:none;"  name="np" id="np" value="4">  <button class="np" type="button">4 o +</button> 
+    </center></p><br>
+                                   <center><button id="compara" class="compara"><center style="font-size: 115%;">COMPARA</center></button> </center><br><br>
+                               </div>
+                                   </div>
+                               </form>
                                
-									<img src="imagenes/encabezado_derecha.png" alt="image description">
-                                    <button  value=1 class="p1z"><img src="imagenes/menos45iz.png" ></button>
-                                    <button  value=2 class="p1z"><img src="imagenes/46-50iz.png" ></button>
-                                    <button  value=3 class="p1z"><img src="imagenes/51-64iz.png" ></button>
-                                    <button  value=4 class="p1z"><img src="imagenes/65masiz.png"></button>
-								</div>
-							</div>
-						<style>
-                              @media (max-width: 700px)
-                            {
-                              #titulo {
-                              font-size: 150%;
-                                  font-weight: bold;
-                              }
-                             
-                            }
-                           </style>
-					</div>
-				</div>
-                
-			</section>
-		
-
-			<section id="tg-faqs">
-			
-                
-                
-                 <style>
-                              @media (max-width: 700px)
-                            {
-                              #h3a {
-                              font-size: 90%;
-                              }
-                               
-                             
-                            }
-                           </style>
-                <style>
-                              @media (min-width: 500px)
-                            {
+                            </div>
                               
-                                #finalabajo {
-                                
-                                display: none;
-                              }
+                           
+                        </div>
+                     </div>
+                            
+                      
+                      <div class="container" id="pequeno">
+                        <div class="row">
+                            <div class="col-xs-0 col-sm-5 col-md-5 col-lg-5" >
+                               
+                               <form action="ejemplo.php" method="get" >
+                               <div class="form-group" >
+                                   <div style="background-image: url('imagenes/pancarta.png');background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+background-position: center;
+margin-left: auto;
+margin-right: auto;">
+                                    
+                                  
+                                      
+                                  <p><center>EDAD<br>
+    <input type="radio" style="display:none;" name="edad" id="edad"  value="1">  <button class="edad" type="button">-40</button> 
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">40-45</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">45-50</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="4">  <button class="edad" type="button">+60</button> 
+   </center></p> 
+                                   
+                                   <p><center>¿TIENES YA UN SEGURO DE SALUD?<br>
+    <input type="radio" style="display:none;" name="dc" id="dc" value="1">  <button class="dc" type="button">Sí</button> 
+    <input type="radio" style="display:none;"  name="dc" id="dc" value="2">  <button class="dc" type="button">No</button>
+    </center></p> 
+    
+                                   <p><center>ESTADO CIVIL<br>
+    <input type="radio" style="display:none;" name="ec" id="ec" value="1">  <button class="ec" type="button">Soltero</button> 
+    <input type="radio" style="display:none;"  name="ec" id="ec" value="2">  <button class="ec" type="button">Casado</button>
+    </center></p>
+                                   
+                                   <p><center>PERSONAS A ASEGURAR<br>
+    <input type="radio" style="display:none;" name="np" id="np" value="1">  <button class="np" type="button">1</button> 
+    <input type="radio" style="display:none;"  name="np" id="np" value="2">  <button class="np" type="button">2</button>
+    <input type="radio" style="display:none;"  name="np" id="np" value="3">  <button class="np" type="button">3</button>
+    <input type="radio" style="display:none;"  name="np" id="np" value="4">  <button class="np" type="button">4 o +</button> 
+    </center></p><br>
+                                   <center><button id="compara2" class="compara"><center style="font-size: 70%;">COMPARA</center></button> </center><br><br>
+                               </div>
+                                   </div>
+                               </form>
+                               
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+                          
+                           </div>
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                              
-                            }
-                           </style>
+                               
+                             <h4><img src="imagenes/check.png"> En solo dos pasos</h4><br>
+                             <h4><img src="imagenes/check.png"> Sin Compromisos</h4><br>
+                             <h4><img src="imagenes/check.png"> Ajustado a sus necesidades</h4>
+                               <br>
+                           
+                            </div>
+                            
+                           <br>
+                           
+                              
+                           
+                        </div>
+                     </div>
+                            
+                      
+                  </div>
+               </div>
               
-
+                    
+                  </div>
+                </div>
                 
-			</section>
+                
+             <div id="abajodiv" style="z-index: -1000;width: 100%;display: block;">
+                 <div class="container" style="background-color:#f8f8f8;width: 100%;margin-top: 15vh;">
+                     <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0px;padding-right: 0px;">
+                 <img src="imagenes/marcas2.png" id="marcasid">
+                 <img src="imagenes/marcas.png" id="marcasidp" style="width: 100%;">
+                         </div>
+                     </div>
+                 </div>
+                <div class="container" style="background-color:#f8f8f8;width: 100%;">
+                     <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                            <center><h3><br>NOSOTROS</h3></center><br>
+                           <center><br><br><h6 id="textonos" style="text-align: justify;">+Línea Salud es nustro comparador de salud más sencillo.<br>+Pensado por y para cubrir las necesidades médicas.<br>+Contamos con las aseguradoras más importantes del mercado.<br>+Disponemos de ofertas personalizadas.</h6></center>
+                            
+                            <center><img src="imagenes/sello.png" id="selloidp" style="margin-top: 15vh;"></center>
+                         </div>  
+
+                         
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
+                          
+                           <!--<center> <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 50%;">
+ 
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  
+  <div class="carousel-inner">
+    <div class="item active">
+      <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img src="imagenes/fondoopiones1.jpg"><br><br><h6>"Que fácil"</h6><h6>"Justo lo que buscaba"</h6><h6>"Han dado con lo que buscaba"</h6><h5>AJUSTADO A MIS NECESIDADES</h5></div>
         
-       
-			
-		
-	<script src="js\vendor\jquery-library.js"></script>
-	<script src="js\vendor\bootstrap.min.js"></script>
-	<script src="js\jquery.singlePageNav.min.js"></script>
-	<script src="js\owl.carousel.min.js"></script>
-	<script src="js\jquery.vide.min.js"></script>
-	<script src="js\scrollbar.min.js"></script>
-	<script src="js\prettyPhoto.js"></script>
-	<script src="js\pogoslider.js"></script>
-	<script src="js\parallax.js"></script>
-	<script src="js\countTo.js"></script>
-	<script src="js\appear.js"></script>
-	<script src="js\main.js"></script>
-</body>
-    <footer style="background-color:rgba(0,0,0,0.8);">
-                <center><p style="color: white; font-size: 12px">Copyright ©2018 Ignium Consulting para linea salud<br>
+    </div>
+
+    <div class="item">
+       <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img src="imagenes/fondoopiones2.jpg"><br><br><h6>"De confianza"</h6><h6>"Al lado de mi casa"</h6><h6>"Que rápido"</h6><h5>EN SOLO 2 PASOS</h5></div>
+    </div>
+
+    <div class="item">
+       <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img src="imagenes/fondoopiones3.jpg"><br><br><h6>"Ya estoy más tranquilo"</h6><h6>"Con diferentes descuentos"</h6><h6>"Es intuitivo"</h6><h5>SIN COMPROMISOS</h5></div>
+    </div>
+  </div>
+
+ 
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                              </div></center>-->
+ 
+                            <center><img src="imagenes/sello.png" id="selloid" style="margin-top: 15vh;"></center>
+                            
+                         </div> 
+                          
+                                
+                                
+                                
+                           
+                        </div>
+                    
+                        
+                   <br><br>
+                     </div>
+                 
+                
+                     
+                        <footer style="background-color:#146289;width: 100%;">
+                    
+                <center><img src="imagenes/LineaSalud_Logo.png" style="width: 13px;"><p style="color: white; font-size: 12px">Copyright ©2018 Ignium Consulting para linea salud<br>
 
                     <a  href="pyp.html" style="color: white" >Políticas de Privacidad &amp; Cookies</a>  |  <a  href="tyc.html" style="color: white" >Términos y Condiciones</a> | <a  href="transparencia.html" style="color: white" >Transparencia Informativa </a>| <a  href="pp.html" style="color: white" >Política de privacidad</a></p></center>
         </footer>
-</html>
-    <script type="text/javascript">
-    
-    $( document ).ready(function() {
-        
-                localStorage.setItem("utm_source",'<?php echo $_GET["utm_source"];?>');
+                        
+                     
+                 
+                </div>
+                <script>
+                                    // Get the modal
+                                    var modal2 = document.getElementById('myModal2');
+
+                                    // Get the button that opens the modal
+                                    var btn2 = document.getElementById("myBtn2");
+
+                                    // Get the <span> element that closes the modal
+                                    var span2 = document.getElementsByClassName("close2")[0];
+
+                                    // When the user clicks the button, open the modal 
+                                    btn2.onclick = function() {
+                                      modal2.style.display = "block";
+                                    }
+
+                                    // When the user clicks on <span> (x), close the modal
+                                    span2.onclick = function() {
+                                      modal2.style.display = "none";
+                                    }
+
+                                    // When the user clicks anywhere outside of the modal, close it
+                                    window.onclick = function(event) {
+                                       if (event.target == modal2) {
+                                        modal2.style.display = "none";
+                                           
+                                      }
+                                    }
+                 </script>
                 
+                
+               <script src="js\vendor\jquery-library.js"></script>
+               <script src="js\vendor\bootstrap.min.js"></script>
+               <script src="js\jquery.singlePageNav.min.js"></script>
+               <script src="js\owl.carousel.min.js"></script>
+               <script src="js\jquery.vide.min.js"></script>
+               <script src="js\scrollbar.min.js"></script>
+               <script src="js\prettyPhoto.js"></script>
+               <script src="js\pogoslider.js"></script>
+               <script src="js\parallax.js"></script>
+               <script src="js\countTo.js"></script>
+               <script src="js\appear.js"></script>
+               <script src="js\main.js"></script>
+                 
+                
+            </body>
+            
+                 
+                        
+             
+                
+         </html>
+         <script type="text/javascript">
+            $( document ).ready(function() {
+                
+                var edad="";
+                var dc="";
+                var ec="";
+                var np="";
+                
+                if (screen.width<750)
+                    {
+                      
+                   $( "#grande" ).hide();
+                   $( "#pequeno" ).show();
+                        $( "h3" ).css("font-size","100%");
+                    }
+                else
+                    {
+                   $( "#grande" ).show();
+                   $( "#pequeno" ).hide();
+                    }
+                
+                
+                 $( ".edad" ).click(function() {
+            
+                 $( ".edad" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
+                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                     
+                console.log($(this).prev().val());
+                     edad=$(this).prev().val();
+                 
+                
+            });
+                $( ".dc" ).click(function() {
+           
+                $( ".dc" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
+                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                console.log($(this).prev().val());
+                    dc=$(this).prev().val();
+                 
+                
+            });
+                $( ".ec" ).click(function() {
+            
+                $( ".ec" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
+                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                console.log($(this).prev().val());
+                 ec=$(this).prev().val();
+                
+            });
+                
+                $( ".np" ).click(function() {
+            
+                 $( ".np" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
+                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                console.log($(this).prev().val());
+                    np=$(this).prev().val();
+                 
+                
+            });
+                
+                $( ".compara" ).click(function(e) {
+            
+                e.preventDefault();
+                    
+                   
+                    
+                                    
+                if(edad=="" ||dc=="" ||ec=="" ||np=="" )
+                    {
+                       alert("Rellene todos los datos"); 
+                    }
+                else{
+                   
+                localStorage.setItem("edad",edad);
+                localStorage.setItem("dc",dc);
+                localStorage.setItem("ec",ec);
+                localStorage.setItem("np",np);
+                
+                    
+                    window.location.href = "step2.php";
+                }
+                 
+                
+            });
+                
+                
+                
+                localStorage.setItem("utm_source",'<?php echo $_GET["utm_source"];?>');
                 localStorage.setItem("utm_medium",'<?php echo $_GET["utm_medium"];?>');
                 localStorage.setItem("utm_campaign",'<?php echo $_GET["utm_campaign"];?>');
                 localStorage.setItem("utm_term",'<?php echo $_GET["utm_term"];?>');
                 localStorage.setItem("utm_content",'<?php echo $_GET["utm_content"];?>');
                 localStorage.setItem("id_buyer",'<?php echo $_GET["id_buyer"];?>');
                 localStorage.setItem("source",'<?php echo $_GET["source"];?>');
-        
+                
                 if(localStorage.getItem("source")=="")
                     {
                     localStorage.setItem("source",196);
@@ -221,23 +649,64 @@ gtag('config', 'UA-130595463-1');
                     {
                     localStorage.setItem("id_buyer",7);
                     }
-        
-    $( ".p1" ).click(function() {
+                
+                $(window).resize(function(e){
+                 
+        console.log(e);                   
+    });
+                
+
+                
+var realiz=false;
+          
+ $(window).scroll(function() {
+   if($(window).scrollTop() > 600 && realiz==false) {
+       console.log($(window).scrollTop() );
+       console.log("bottom!");
+       realiz=true;
+       
+   }
+});
+               
+    window.setInterval(function(){
+  
+ localStorage.setItem("time",parseInt(localStorage.getItem("time"))+1);
+        if(localStorage.getItem("time")==5)
+       {
+       //$( "#myBtn2" ).click();
+       }
+    //console.log(localStorage.getItem("time"));
+},1000);            
+
+                
+if(localStorage.getItem("atras")=="true")
+    {
+        console.log("atras");
+        localStorage.setItem("atras","false");
+        localStorage.setItem("time",localStorage.getItem("time")); 
+    }
+                
+else{
+    localStorage.setItem("time",0); 
+}
+                
+if(screen.width<1100)
+{
+                        $('.modal-content').css({'width':'90%'});
+                        
+                        
+}
+    
+
  
-         
-         url="step1.php"+"?utm_source="+localStorage.getItem("utm_source")+"&utm_medium="+localStorage.getItem("utm_medium")+"&utm_campaign="+localStorage.getItem("utm_campaign")+"&utm_term="+localStorage.getItem("utm_term")+"&utm_content="+localStorage.getItem("utm_content")+"&id_buyer="+localStorage.getItem("id_buyer")+"&source="+localStorage.getItem("source");
-         window.location.href=url;
-        
-});
-        
-        $( ".p1z" ).click(function() {
-            
- 
-         url="step2.php"+"?edad="+$(this).val();
-         window.location.href=url;
-            
-            //console.log($(this).val());
-        
-});
-});
-</script>
+                
+            });
+         </script>
+             
+             
+             
+             
+             
+             
+             
+

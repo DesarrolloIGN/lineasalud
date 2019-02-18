@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <!--[if lt IE 7]>		
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
@@ -14,7 +12,7 @@
          <html class="no-js" lang="zxx">
             <!--<![endif]-->
             <head>
-   <!-- Global site tag (gtag.js) - Google Analytics -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130595463-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -47,7 +45,7 @@ gtag('config', 'UA-130595463-1');
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                <title>Linea salud</title>
-  <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
                <link href="css\estilos.css" rel="stylesheet" type="text/css" />
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -64,70 +62,144 @@ gtag('config', 'UA-130595463-1');
                <link rel="stylesheet" href="css\color.css">
                <link rel="stylesheet" href="css\responsive.css">
                <script src="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js"></script>
+                
             </head>
-            <body id="tg-body" class="tg-home">
-               <div style="background-image: url('imagenes/babygris.jpg'); width: 100%; height: 100vh; background-size: cover;background-position-y: 2%; " class="imagen">
+            <body id="tg-body" class="tg-home" style="background-color:#146289">
+                <div class="tg-sidenavholder">
+		<div id="tg-sidenavigation" class="tg-sidenavigation">
+			<a class="tg-btnclosenav navbar-toggle" href="javascript:void(0);" data-toggle="collapse" data-target="#tg-sidenavigation" aria-expanded="true"><i class="icon-arrow-right"></i></a>
+			<div class="tg-navscrollbar">
+				<div class="tg-logoarea" style="display:none;" >
+					<strong class="tg-logo"><a href="index-1.htm"><img src="images\logob.png" alt="company logo here"></a></strong>
+				</div>
+				<div id="tg-navigation" class="tg-navigation">
+					<ul>
+						<li><img src="imagenes/step1/v1.png" alt="arriba" > </li>
+						<li><img src="imagenes/step1/v2.png" alt="arriba" > </li>
+                        <li><img src="imagenes/step1/v3.png" alt="arriba" > </li>
+                        <li><img src="imagenes/step1/v4.png" alt="arriba" > </li>
+                    </ul>
+				</div>
+             </div>
+		</div>
+	</div>
+                <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="tg-header" class="tg-header tg-fixedheader tg-haslayout">
+			<nav id="tg-nav" class="tg-nav">
+				<div class="navbar-header" style="background-color: #001e31;">
+                    
+					<button type="button" id= "botonstep1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-sidenavigation" aria-expanded="false" style="display:none;" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						
+					</div>
+				</div>
+			</div>
+		</header>
+                    
+               <div style="width: 100%; height: 65vh; background-size: cover;" class="imagen">
                   <div class="tg-homeslider tg-haslayout">
                       <div id="arriba1">
                      <img src="imagenes/arriba.png" alt="arriba" class="imagen"> 
-                      </div>
+                          
+                          </div>
                       <style>
-                        @media (max-width: 600px) 
-                {
-                 #arriba1
-                    {
-                        width: 180%;
+        @media (max-width: 600px) 
+{
+ #arriba1
+    {
+        width: 180%;
 
-                        
+        
 
-                        background-color: #525455;
-
-                    }
-
-                }
+        background-color: #525455;
+     
+    }
+    
+    #marcasid
+    {
+        display: none;
+    }
+   
+    
+}
         </style>
-                     <div class="container">
+                      <style>
+        @media (min-width: 600px) 
+{
+
+    
+    #marcasidp
+    {
+        display: none;
+    }
+    
+    
+    
+}
+        </style>
+                                    
+                       	
+                      <div class="tg-homeslider tg-haslayout"  style="background-color:#d9d9d9">
+                  
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                            <br><div><center><h3>¡Has recibido tu oferta exclusiva!</h3></center>
+            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+                     <div class="container" id="grande" >
                         <div class="row">
-                           <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
-                           </div>
-                           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 1%;">
-                              <img src="imagenes/step4_adelante/basico.png" class="panel" id="panel" alt="arriba" style="position: absolute;margin-left: -5%;">
-                              <div class="container">
-                                 <div class="row">
-                                    <div class="col-xs-12 col-sm-4 col-md-5 col-lg-5" style="margin-top: 4%;" id="felicitacion">
-                                       <center><h4>¡GRACIAS!
-                                           <br>Nuestro consultor te llamará para facilitarte la OFERTA PERSONALIZADA acorde a tus necesidades.</h4></center>
-									   
-                                       
-                                    </div>
-                                     
-                                     
-                                     <style>
-                              @media (max-width: 980px)
-                            {
-                              #felicitacion {
-                              font-size: 75%;
-                              }
-                               #panel
-                              {
-                                width: 200%;
-                                height: 120%;
-                              }
-                            }
-                           </style>
-                                 </div>
-                              </div>
+                             <div class="col-xs-0 col-sm-4 col-md-4 col-lg-4">
+                           
+                           
+                            </div>
+                            
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+                               <br>
                                
+                          
+                              <h3 style="color:white;"><center>¡Gracias por su solicitud!</center></h3>
+                                       <br>Hemos encontrado un proveedor de confianza con la mejor oferta dentro de su zona.<br>
+									   
+                                       Un experto le llamará en breve para asesorarle y facilitarle un presupuesto sin compromiso acorde a sus necesidades.<br>
+                               
+                               <br><br><br>
+                                   
                            </div>
-                            
-                            
+                            <div class="col-xs-0 col-sm-3 col-md-3 col-lg-4">
+                           
+                           
+                            </div>
+                           
                             
                         </div>
                      </div>
-                      
+             <img src="imagenes/marcas3.png" id="marcasid">
+                 <img src="imagenes/marcas.png" id="marcasidp" style="width: 100%;">
                   </div>
-                   
                </div>
+              
+                    
+                  </div>
                 <div class="container">
                                  <div class="row">
                                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 4%;" id="felicitacion">
@@ -139,6 +211,8 @@ gtag('config', 'UA-130595463-1');
                                     </div>
                                          </div>
                                      </div>
+                
+               <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.4/bowser.min.js"></script>    
                <script src="js\vendor\jquery-library.js"></script>
                <script src="js\vendor\bootstrap.min.js"></script>
                <script src="js\jquery.singlePageNav.min.js"></script>
@@ -152,13 +226,15 @@ gtag('config', 'UA-130595463-1');
                <script src="js\appear.js"></script>
                <script src="js\main.js"></script>
             </body>
-         </html>
-                                    
-        <footer style="background-color:rgba(0,0,0,0.8);">
-                <center><p style="color: white; font-size: 12px">Copyright ©2018 Ignium Consulting para linea salud<br>
+             
+             
+                <footer style="background-color:#146289;">
+                    
+                <center><img src="imagenes/LineaSalud_Logo.png" style="width: 13px;"><p style="color: white; font-size: 12px">Copyright ©2018 Ignium Consulting para linea salud<br>
 
                     <a  href="pyp.html" style="color: white" >Políticas de Privacidad &amp; Cookies</a>  |  <a  href="tyc.html" style="color: white" >Términos y Condiciones</a> | <a  href="transparencia.html" style="color: white" >Transparencia Informativa </a>| <a  href="pp.html" style="color: white" >Política de privacidad</a></p></center>
-        </footer>
+        </footer><br><br>
+         </html>
          <script type="text/javascript">
             $( document ).ready(function() {
                 

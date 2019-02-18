@@ -1,5 +1,4 @@
 
-
 <!doctype html>
 <!--[if lt IE 7]>		
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="">
@@ -14,7 +13,7 @@
          <html class="no-js" lang="zxx">
             <!--<![endif]-->
             <head>
-          <!-- Global site tag (gtag.js) - Google Analytics -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130595463-1"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -47,7 +46,7 @@ gtag('config', 'UA-130595463-1');
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                <title>Linea salud</title>
-    <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
                <link href="css\estilos.css" rel="stylesheet" type="text/css" />
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -64,12 +63,111 @@ gtag('config', 'UA-130595463-1');
                <link rel="stylesheet" href="css\color.css">
                <link rel="stylesheet" href="css\responsive.css">
                <script src="js\vendor\modernizr-2.8.3-respond-1.4.2.min.js"></script>
+                <style>
+                body {font-family: Arial, Helvetica, sans-serif;}
+
+                /* The Modal (background) */
+                .modal {
+                  display: none; /* Hidden by default */
+                  position: fixed; /* Stay in place */
+                  z-index: 1; /* Sit on top */
+                  padding-top: 100px; /* Location of the box */
+                  left: 0;
+                  top: 0;
+                  width: 100%; /* Full width */
+                  height: 100%; /* Full height */
+                  overflow: auto; /* Enable scroll if needed */
+                  background-color: rgb(0,0,0); /* Fallback color */
+                  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                }
+
+                /* Modal Content */
+                .modal-content {
+                  background-color: #fefefe;
+                  margin: auto;
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 60%;
+                }
+
+                /* The Close Button */
+                .close,.close2 {
+                  color: #aaaaaa;
+                  float: right;
+                  font-size: 28px;
+                  font-weight: bold;
+                }
+
+                .close:hover,
+                .close:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                    .close2:hover,
+                .close2:focus {
+                  color: #000;
+                  text-decoration: none;
+                  cursor: pointer;
+                }
+                </style>
             </head>
-            <body id="tg-body" class="tg-home">
-               <div style="background-image: url('imagenes/babygris.jpg'); width: 100%; height: 90vh; background-size: cover;background-position-y: 2%; " class="imagen">
+            <body id="tg-body" class="tg-home" style="background-color:#146289">
+                <div id="myModal2" class="modal">
+                                        <div class="modal-content">
+                                            <span class="close2">&times;</span>
+                                            <center><br><h5><strong>NECESITAMOS TU CONSENTIMIENTO</strong></h5><p style="color:black;">Acepto los <a href='tyc.html'> términos y condiciones</a> y <a href='pp.html' >política de privacidad</a> de este sitio web.<br>Acepto recibir ofertas y publicidad de este sitio web por email, contacto telefónico y/o SMS.<br>Acepto recibir ofertas y publicidad por email, contacto teléfonico y/o SMS por los colaboradores de este sitio web.</p></center>
+                                        </div>
+                                     </div>
+                      <center><button id="myBtn2" style="display:none;" type="button" class="btn btn-danger">Quiero informarme sobre un seguro de salud</button></center>
+                <div class="tg-sidenavholder">
+		<div id="tg-sidenavigation" class="tg-sidenavigation">
+			<a class="tg-btnclosenav navbar-toggle" href="javascript:void(0);" data-toggle="collapse" data-target="#tg-sidenavigation" aria-expanded="true"><i class="icon-arrow-right"></i></a>
+			<div class="tg-navscrollbar">
+				<div class="tg-logoarea" style="display:none;" >
+					<strong class="tg-logo"><a href="index-1.htm"><img src="images\logob.png" alt="company logo here"></a></strong>
+				</div>
+				<div id="tg-navigation" class="tg-navigation">
+					<ul>
+						<li><img src="imagenes/step1/v1.png" alt="arriba" > </li>
+						<li><img src="imagenes/step1/v2.png" alt="arriba" > </li>
+                        <li><img src="imagenes/step1/v3.png" alt="arriba" > </li>
+                        <li><img src="imagenes/step1/v4.png" alt="arriba" > </li>
+                    </ul>
+				</div>
+             </div>
+		</div>
+	</div>
+                <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+		<!--************************************
+				Header Start
+		*************************************-->
+		<header id="tg-header" class="tg-header tg-fixedheader tg-haslayout">
+			<nav id="tg-nav" class="tg-nav">
+				<div class="navbar-header" style="background-color: #001e31;">
+                    
+					<button type="button" id= "botonstep1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tg-sidenavigation" aria-expanded="false" style="display:none;" >
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						
+					</div>
+				</div>
+			</div>
+		</header>
+                    
+               <div style="width: 100%; height: 65vh; background-size: cover;" class="imagen">
                   <div class="tg-homeslider tg-haslayout">
                       <div id="arriba1">
-                     <img src="imagenes/arriba.png" alt="arriba" class="imagen">
+                     <img src="imagenes/arriba.png" alt="arriba" class="imagen"> 
+                          
                           </div>
                       <style>
         @media (max-width: 600px) 
@@ -84,120 +182,164 @@ gtag('config', 'UA-130595463-1');
      
     }
     
+    #marcasid
+    {
+        display: none;
+    }
+   
+    
 }
         </style>
-                      <div class="tg-homeslider tg-haslayout">
+                      <style>
+        @media (min-width: 600px) 
+{
+
+    
+    #marcasidp
+    {
+        display: none;
+    }
+    
+    
+    
+}
+        </style>
+                                    <div id="myModal" class="modal">
+                                        <div class="modal-content">
+                                            <span class="close">&times;</span>
+                                            <center><br><h5><strong>NECESITAMOS TU CONSENTIMIENTO</strong></h5><p style="color:black;">Acepto los <a  href='tyc.html'> términos y condiciones</a> y <a href='pp.html'>política de privacidad</a> de este sitio web.<br>Acepto recibir ofertas y publicidad de este sitio web por email, contacto telefónico y/o SMS.<br>Acepto recibir ofertas y publicidad por email, contacto teléfonico y/o SMS por los colaboradores de este sitio web.<br><br><button class="btn btn-success" style="margin-bottom: 3px;" id="aceptoall">Acepto<br></button><br><button   class="btn btn-ligth" id="noaceptoall">No Acepto</button></p></center>
+                                        </div>
+                                     </div>
+                      <center><button id="myBtn" style="display:none;" type="button" class="btn btn-danger">Quiero informarme sobre un seguro de salud</button></center>
+                      
+                      
+                    
+                       	
+                      <div class="tg-homeslider tg-haslayout"  style="background-color:#d9d9d9">
                   
                   <div class="container">
                      <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                           <div><center><em><h4 style="color:#062334;">Date prisa, nos quedan <strong>pocas ofertas disponibles.</strong> ¡No te quedes sin ellas!
-</h4></em></center>
-                           </div>
-                           
+                            <br><div><center><h3>¡Estas a <strong> un click </strong>
+ de recibir <strong>tu oferta exclusiva</strong></h3></center>
+            </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         </div>
                      </div>
                   </div>
                </div>
-                     <div class="container">
+                     <div class="container" id="grande" >
                         <div class="row">
-                           <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
+                           <div class="col-xs-0 col-sm-4 col-md-4 col-lg-5">
+                           
+                           
+                            </div>
+                            
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
+                               <br><br><br><br>
+                               
+                          <div><center><h6><strong  style="color: white;">Código Postal</strong></h6></center></div><br>
+                               
+                                
+                             <input type="number" id="cpid"  placeholder=""required name="cp" style="width: 100%;"><br><br>
+                               
+                          <div><center><h6><strong  style="color: white;">Nombre Completo</strong></h6></center></div><br>
+                             <input type="text" id=nc placeholder="" required name="nombre" style="width: 100%;"><br><br>
+                               
+                               <div><center><h6><strong  style="color: white;">Teléfono</strong></h6></center></div><br>
+                               
+                             <input type="tel" id=tc placeholder="" required name="telefono" style="width: 100%;"><br><br>
+                               <center><button style="width: 100%;" id="compara3" class="compara"><center style="font-size: 151%;">COMPARA</center></button> </center><br><br>
+                                   
                            </div>
-                           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="margin-top: 1%;">
-                              <img src="imagenes/step3/pregunta.png"  class="panel" alt="arriba" style="position: absolute">
-                              <div class="container">
-                                 <div class="row">
-                                     <form action ="step3.php" method="get" id="form3">
-                                            <div class="form-group">
-                                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                       <button class="p5" name=dc value=1 id=si style="margin-top: 30%;margin-left: -2.5%;"><img src="imagenes/step3/si.png" alt="arriba" > </button>
-                                       <button class="p5" id=no name=dc value=2 style="margin-top: 2%;margin-left: -2.5%;"><img src="imagenes/step3/no.png" alt="arriba"> </button>
-                                       <!--<button class="p2"style="margin-top: 2%;margin-left: 6%;"><img src="imagenes/step1/aceptar.png" alt="arriba" > </button>-->
-                                    </div>
-                                         </div>
-                                     </form>
-                                 </div>
-                              </div>
-                              <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                  <center><img src="imagenes/barraprogresion2h.png" alt="arriba" id="prbrh" ></center>
-                              </div>
-                           </div>
-                           <div class="col-xs-0 col-sm-3 col-md-3 col-lg-3">
-                             <img src="imagenes/barraprogresion2.png" alt="arriba" id="prbr"  style="margin-top: 0%;">
-                           </div>
+                            <div class="col-xs-0 col-sm-3 col-md-3 col-lg-4">
+                           
+                           
+                            </div>
+                          
+                        </div>
+                     </div>
+             
+                  </div>
+               </div>
+              
+                    
+                  </div>
+                <div class="outline" id="out" style="width:100%;height:100%;background-color:rgba(0,0,0,0.8);z-index:999999;position:absolute;top:0;left:0;">
+					<div class="container-flush">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                           <p class="text-white" style="font-weight:bold;font-size:28px;color:#fff;margin-top:60px;padding-top:40px;">Espere unos momentos, estamos buscando las mejores ofertas<br>
+						   <img src="imagenes/loading_icon.gif" style="width:15%;height:auto;"></p>
+                            <p id="marcas" class="text-white" style="font-weight:bold;font-size:28px;color:#fff;margin-top:60px;padding-top:40px;"></p>
+                            
+                            
+                            
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         </div>
                      </div>
                   </div>
-               </div>
-                <div class="container">
-                     <div class="row">
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <center><p style="color:#062334;font-size:160%;"><br>¿Cómo te ayudamos?</p></center><br>
-                            
-                            <div class="container">
-                     <div class="row">
-                         
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                             <center><img src="imagenes/step1/a3.png"  style="width: 50%;height: 50%;"><br><br><p style="font-size:120%;">Completa tus datos para acceder al mejor presupuesto de salud</p></center><br>
-                         </div>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                             <center><img src="imagenes/step1/a1.png"  style="width: 50%;height: 50%;"><br><br><p style="font-size:120%;">Calculamos según tu información el mejor precio para ti y los tuyos</p></center><br>
-                         </div>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                             <center><img src="imagenes/step1/a2.png"  style="width: 50%;height: 50%;"><br><br><p style="font-size:120%;">Encontrarás la aseguradora perfecta que cumpla con tus necesidades</p></center><br>
-                         </div>
-                                </div>
-                                
-                            </div>
-                            
-                         </div>       
-                                
-                                
-                                
-                           
-                        </div>
-                        
-                     </div>
-                 <div class="container">
-                     <div class="row">
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <center><p style="color:#062334;font-size:160%;">Ventajas</p><br></center>
-                            
-                            <div class="container">
-                     <div class="row">
-                         
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <center><img src="imagenes/step1/n1.png"  style="width: 70%;height: 50%;"><br><br><p style="font-size:120%;">Mejor cuadro médico.
-                            </p></center><br>
-                         </div>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <center><img src="imagenes/step1/n2.png"  style="width: 70%;height: 50%;"><br><br><p style="font-size:120%;">
-                            Mejor precio garantizado.
-                            </p></center><br>
-                         </div>
-                         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                            <center><img src="imagenes/step1/n3.png"  style="width: 70%;height: 50%;"><br><br><p style="font-size:120%;">Cercanía.
-                            </p></center><br>
-                         </div>
-                        
-                                </div>
-                                
-                            </div>
-                            
-                         </div>       
-                                
-                                
-                                
-                           
-                        </div>
-                        
-                     </div>
+				</div>
+                
+                <img src="imagenes/marcas3.png" id="marcasid">
+                 <img src="imagenes/marcas.png" id="marcasidp" style="width: 100%;">
+                <script>
+                                    // Get the modal
+                                    var modal = document.getElementById('myModal');
+
+                                    // Get the button that opens the modal
+                                    var btn = document.getElementById("myBtn");
+
+                                    // Get the <span> element that closes the modal
+                                    var span = document.getElementsByClassName("close")[0];
+
+                                    // When the user clicks the button, open the modal 
+                                    btn.onclick = function() {
+                                      modal.style.display = "block";
+                                    }
+
+                                    // When the user clicks on <span> (x), close the modal
+                                    span.onclick = function() {
+                                      modal.style.display = "none";
+                                    }
+
+                 </script>
+                <script>
+                                    // Get the modal
+                                    var modal2 = document.getElementById('myModal2');
+
+                                    // Get the button that opens the modal
+                                    var btn2 = document.getElementById("myBtn2");
+
+                                    // Get the <span> element that closes the modal
+                                    var span2 = document.getElementsByClassName("close2")[0];
+
+                                    // When the user clicks the button, open the modal 
+                                    btn2.onclick = function() {
+                                      modal2.style.display = "block";
+                                    }
+
+                                    // When the user clicks on <span> (x), close the modal
+                                    span2.onclick = function() {
+                                      modal2.style.display = "none";
+                                    }
+
+                                    // When the user clicks anywhere outside of the modal, close it
+                                   window.onclick = function(event) {
+                                       if (event.target == modal2 || event.target == modal) {
+                                        modal2.style.display = "none";
+                                            modal.style.display = "none";
+                                      }
+                                    }
+                 </script>
+                
+                
                <script src="js\vendor\jquery-library.js"></script>
                <script src="js\vendor\bootstrap.min.js"></script>
                <script src="js\jquery.singlePageNav.min.js"></script>
@@ -211,25 +353,184 @@ gtag('config', 'UA-130595463-1');
                <script src="js\appear.js"></script>
                <script src="js\main.js"></script>
             </body>
-             <footer style="background-color:rgba(0,0,0,0.8);">
-                <center><p style="color: white; font-size: 12px">Copyright ©2018 Ignium Consulting para linea salud<br>
+             
+             
+                <footer style="background-color:#146289;">
+                    
+                <center><img src="imagenes/LineaSalud_Logo.png" style="width: 13px;"><p style="color: white; font-size: 12px">Copyright ©2018 Ignium Consulting para linea salud<br>
 
                     <a  href="pyp.html" style="color: white" >Políticas de Privacidad &amp; Cookies</a>  |  <a  href="tyc.html" style="color: white" >Términos y Condiciones</a> | <a  href="transparencia.html" style="color: white" >Transparencia Informativa </a>| <a  href="pp.html" style="color: white" >Política de privacidad</a></p></center>
         </footer>
          </html>
          <script type="text/javascript">
             $( document ).ready(function() {
+                var v1=false;
+                var v2=false;
+                var v3=false;
                 
-                localStorage.setItem("edad",<?php echo $_GET["edad"];?>)
+                localStorage.setItem("atras","true");
+                
+                $("#out").hide();
+              
                 localStorage.setItem("heecho",'nore');
                 
+                $( "#noaceptoall" ).click(function(e)
+             {
                 
-            $( ".p5" ).click(function() {
-            
-                 
-                 window.location.href="step3_5.html";
+                modal.style.display = "none";
+                  
+				
+			});
                 
-            });
+                $( "#aceptoall" ).click(function(e)
+             {
+                
+                localStorage.setItem("cp",$( "#cpid" ).val());
+                localStorage.setItem("nombre",$( "#nc" ).val());
+                localStorage.setItem("telefono",$( "#tc" ).val());
+               
+                    
+                 $("#out").show();
+				$(window).scrollTop(0);
+                
+                var contador=0;
+                var marcas = ["Mapfre", "Aegon", "AXA","Asisa", "Asefa","Néctar", "Allianz", "Caser","Cigna", "DKV", "Mutua Levante Seguros","Plus Ultra Seguros", "Zurich", "Reale Seguros","Pelayo", "Catalana Occidente", "Ocaso"];
+                marcas = marcas.sort(function() {return Math.random() - 0.5});
+                console.log(marcas);
+                        
+               setInterval(function()
+                {
+                          
+              
+                
+              
+                      $("#marcas").text(marcas[contador]);
+                   
+                contador++;
+                  
+                
+                },200);
+               
+				
+                setTimeout("window.location.href='step3.php'", 3000);
+                  
+				
+			});
+                if(screen.width<1100)
+                {
+                        $('.modal-content').css({'width':'90%'});
+                        
+                        
+                }
+                
+                var reg="^[a-zA-Z]";
+                
+                $( "#cpid" ).change(function() {
+                    
+                    
+                  if((($( "#cpid" ).val().substring(0,1))==0)&&$( "#cpid" ).val().length==5)
+                       {
+                            v1=true;
+                           
+                       }
+                   else if((($( "#cpid" ).val().substring(0,1))!=0)&&$( "#cpid" ).val().length==5)
+                       {
+                            v1=true;
+                           
+                       }
+                  
+                    
+                    else{
+                        $( "#cpid" ).val("");
+                        $("#cpid").attr("placeholder", "Ponga un cp con 5 digitos");
+                        v1=false;
+                    }
+                        
+                     {   
+               
+                   }
+                  
+                });
+                
+                $( "#nc" ).change(function() {
+                if($( "#nc" ).val().match(/^[a-zA-ZñÑáéíóúÁÉÍÓÚ]{3,16}[ ]{1}[a-zA-Z ñÑáéíóúÁÉÍÓÚ]{3,50}$/))
+                        {
+                          
+                v3=true;
+                        }
+                    else{
+                        v3=false;
+                        
+                        $( "#nc" ).val("");
+                        $("#nc").attr("placeholder", "Ponga su nombre completo");
+                    }
+                });
+                $( "#tc" ).change(function() {
+                    console.log($( "#tc" ).val());
+                    if(($( "#tc" ).val().length==9) && ((($( "#tc" ).val().substring(0,1))==9) ||  (($( "#tc" ).val().substring(0,1))==7) ||  (($( "#tc" ).val().substring(0,1))==6)))
+                        {
+                           
+                v2=true;
+                        }
+                    else{
+                        v2=false;
+                        
+                        $( "#tc" ).val("");
+                        $("#tc").attr("placeholder", "Ponga un teléfono de 9 dígitos");
+                    }
+                });
+                
+                $( ".compara" ).click(function(e) {
+                e.preventDefault();
+                if(v1==true && v2==true && v3==true)
+                    {
+                        
+                $( "#myBtn" ).click();
+                    }
+                    
+                   
+			         });
+                
+                 if((($( "#cpid" ).val().substring(0,1))==0)&&$( "#cpid" ).val().length==5)
+                       {
+                            v1=true;
+                           
+                       }
+                   else if((($( "#cpid" ).val().substring(0,1))!=0)&&$( "#cpid" ).val().length==5)
+                       {
+                            v1=true;
+                           
+                       }
+                    
+                    if($( "#nc" ).val().match(/^[a-zA-ZñÑáéíóúÁÉÍÓÚ]{3,16}[ ]{1}[a-zA-Z ñÑáéíóúÁÉÍÓÚ]{3,50}$/))
+                        {
+                          
+                v3=true;
+                        }
+				
+                if(($( "#tc" ).val().length==9) && ((($( "#tc" ).val().substring(0,1))==9) ||  (($( "#tc" ).val().substring(0,1))==7) ||  (($( "#tc" ).val().substring(0,1))==6)))
+                        {
+                           
+                v2=true;
+                        }
+                
+  
+                
+window.setInterval(function(){
+  
+ localStorage.setItem("time",parseInt(localStorage.getItem("time"))+1);
+        if(localStorage.getItem("time")==5)
+       {
+      //$( "#myBtn2" ).click();
+       }
+    //console.log(localStorage.getItem("time"));
+},1000);
+                
+                
+                
+                
+                
+          
             });
          </script>
 
