@@ -45,7 +45,7 @@ gtag('config', 'UA-130595463-1');
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                <title>Linea salud</title>
-   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+   <link rel="icon" type="image/png" href="imagenes/favicon.png" />
                <link href="css\estilos.css" rel="stylesheet" type="text/css" />
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">

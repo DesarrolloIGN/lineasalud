@@ -47,7 +47,7 @@ gtag('config', 'UA-130595463-1');
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                <title>Linea salud</title>
-   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+   <link rel="icon" type="image/png" href="imagenes/favicon.png" />
                <link href="css\estilos.css" rel="stylesheet" type="text/css" />
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -67,6 +67,9 @@ gtag('config', 'UA-130595463-1');
                 <style>
                 body {font-family: Verdana, Helvetica, sans-serif;}
 
+                    /*800x1215
+                    1450x674*/
+                    
                 /* The Modal (background) */
                 .modal {
                   display: none; /* Hidden by default */
@@ -165,7 +168,7 @@ gtag('config', 'UA-130595463-1');
 			</div>
 		</header>
                     
-               <div style="width: 100%; height: 65vh; background-size: cover;" class="imagen">
+               <div style="width: 100%; height: 61vh; background-size: cover;background-image: url('imagenes/apple.jpg');" class="imagen">
                   <div class="tg-homeslider tg-haslayout">
                       <div id="arriba1">
                      <img src="imagenes/arriba.png" alt="arriba" class="imagen"> 
@@ -177,7 +180,7 @@ gtag('config', 'UA-130595463-1');
 
     
     #tg-wrapper {
-	margin-top:-20%;
+	margin-top:-30%;
 	
 }
     
@@ -209,10 +212,7 @@ gtag('config', 'UA-130595463-1');
     {
         display: none;
     }
-    #selloid
-    {
-        display: none;
-    }
+   
 
     
 }
@@ -233,10 +233,7 @@ gtag('config', 'UA-130595463-1');
         display: none;
     }
     
-    #selloidp
-    {
-        display: none;
-    }
+    
 
     
 }
@@ -252,11 +249,67 @@ gtag('config', 'UA-130595463-1');
         margin-left: 12vw;
     }
     
+
+    
+    
     
 
     
 }
         </style>
+                      
+                      <style>
+        @media (min-height: 1000px) 
+{
+ 
+
+#imgazul
+    {
+        background-size: 215%;
+        font-size: 18px;
+        height: 596px;
+    }
+    
+#nosotrosdiv
+    {
+        margin-top:27vh;
+    }
+    
+
+    
+    
+    
+
+    
+}
+        </style>
+                      
+<style>
+        @media (max-height: 1000px) 
+{
+ 
+
+#imgazul
+    {
+        background-size: 100%;
+        font-size: 18px;
+        height: 500px;
+    }
+    
+#nosotrosdiv
+    {
+        margin-top:24vh;
+    }
+    
+
+    
+    
+    
+
+    
+}
+        </style>
+                    
 
                     
                        	<div>
@@ -267,8 +320,8 @@ gtag('config', 'UA-130595463-1');
                         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                            <div><center><h3>¡Encontramos<strong> la mejor oferta </strong>
- en <strong>seguros de salud</strong>!</h3></center>
+                            <br><div><center><h3><strong>Comparamos las mejores ofertas 
+ en seguros de salud</strong></h3></center>
             </div>
                         </div>
                          <br>
@@ -279,7 +332,7 @@ gtag('config', 'UA-130595463-1');
                </div>
                      <div class="container" id="grande">
                         <div class="row">
-                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"  style="margin-top:5%" >
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"  style="margin-top:3%;" >
                              <br>
                                
                              <h4><img src="imagenes/check.png"> En solo dos pasos</h4><br>
@@ -294,40 +347,43 @@ gtag('config', 'UA-130595463-1');
                            <div class="col-xs-0 col-sm-5 col-md-5 col-lg-5" >
                                
                                <form action="ejemplo.php" method="get" >
-                               <div class="form-group" style="margin-top:15%" >
-                                   <div style="background-image: url('imagenes/pancarta.png');background-repeat: no-repeat;
-height: 100%;
+                               <div class="form-group" style="margin-top:8%;margin-left: 5px;width: 111%;">
+                                   <div id="imgazul" style="background-image: url('imagenes/pancarta.png');background-repeat: no-repeat;
+
 width: 100%;
 background-position: center;
 margin-left: auto;
 margin-right: auto;">
+
+                                        
                                     
                                   
                                       
-                                  <p><center>EDAD<br>
-    <input type="radio" style="display:none;" name="edad" id="edad"  value="1">  <button class="edad" type="button">-40</button> 
-    <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">40-45</button>
-    <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">45-50</button>
-    <input type="radio" style="display:none;"  name="edad" id="edad" value="4">  <button class="edad" type="button">+60</button> 
+                                  <p><center><z>Edad</z><br>
+    <input type="radio" style="display:none;" name="edad" id="edad"  value="1">  <button class="edad" type="button">- 40</button> 
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">41 - 45</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">46 - 60</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="4">  <button class="edad" type="button">+ 60</button> 
    </center></p> 
                                    
-                                   <p><center>¿TIENES YA UN SEGURO DE SALUD?<br>
-    <input type="radio" style="display:none;" name="dc" id="dc" value="1">  <button class="dc" type="button">Sí</button> 
-    <input type="radio" style="display:none;"  name="dc" id="dc" value="2">  <button class="dc" type="button">No</button>
+                                   <p><center><z>¿Tienes ya un seguro de salud?</z><br>
+    <input type="radio" style="display:none;" name="dc" id="dc" value="1">  <button class="dc" type="button">SI</button> 
+    <input type="radio" style="display:none;"  name="dc" id="dc" value="2">  <button class="dc" type="button">NO</button>
     </center></p> 
     
-                                   <p><center>ESTADO CIVIL<br>
-    <input type="radio" style="display:none;" name="ec" id="ec" value="1">  <button class="ec" type="button">Soltero</button> 
-    <input type="radio" style="display:none;"  name="ec" id="ec" value="2">  <button class="ec" type="button">Casado</button>
+                                   <p><center><z>¿Tu última renovación?</z><br>
+    <input type="radio" style="display:none;" name="ec" id="ec" value="1">  <button class="ec" type="button">MENOS DE 6 MESES</button> 
+    <input type="radio" style="display:none;"  name="ec" id="ec" value="2">  <button class="ec" type="button">MÁS DE 6 MESES</button>
+     <input type="radio" style="display:none;"  name="ec" id="ec" value="3">  <button class="ec" type="button">AÚN NO HE RENOVADO</button>                                  
     </center></p>
                                    
-                                   <p><center>PERSONAS A ASEGURAR<br>
+                                   <p><center><z>Personas a asegurar</z><br>
     <input type="radio" style="display:none;" name="np" id="np" value="1">  <button class="np" type="button">1</button> 
     <input type="radio" style="display:none;"  name="np" id="np" value="2">  <button class="np" type="button">2</button>
     <input type="radio" style="display:none;"  name="np" id="np" value="3">  <button class="np" type="button">3</button>
     <input type="radio" style="display:none;"  name="np" id="np" value="4">  <button class="np" type="button">4 o +</button> 
     </center></p><br>
-                                   <center><button id="compara" class="compara"><center style="font-size: 115%;">COMPARA</center></button> </center><br><br>
+                                   <center><button id="compara" class="compara"><center style="font-size: 180%;">COMPARAR</center></button> </center><br><br>
                                </div>
                                    </div>
                                </form>
@@ -345,7 +401,7 @@ margin-right: auto;">
                                
                                <form action="ejemplo.php" method="get" >
                                <div class="form-group" >
-                                   <div style="background-image: url('imagenes/pancarta.png');background-repeat: no-repeat;
+                                   <div   style="background-image: url('imagenes/pancarta.png');background-repeat: no-repeat;
 height: 100%;
 width: 100%;
 background-position: center;
@@ -354,39 +410,41 @@ margin-right: auto;">
                                     
                                   
                                       
-                                  <p><center>EDAD<br>
+                                  <p><center>Edad<br>
     <input type="radio" style="display:none;" name="edad" id="edad"  value="1">  <button class="edad" type="button">-40</button> 
-    <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">40-45</button>
-    <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">45-50</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">41-45</button>
+    <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">46-60</button>
     <input type="radio" style="display:none;"  name="edad" id="edad" value="4">  <button class="edad" type="button">+60</button> 
    </center></p> 
                                    
-                                   <p><center>¿TIENES YA UN SEGURO DE SALUD?<br>
-    <input type="radio" style="display:none;" name="dc" id="dc" value="1">  <button class="dc" type="button">Sí</button> 
-    <input type="radio" style="display:none;"  name="dc" id="dc" value="2">  <button class="dc" type="button">No</button>
+                                   <p><center>¿Tienes ya un seguro de salud?<br>
+    <input type="radio" style="display:none;" name="dc" id="dc" value="1">  <button class="dc" type="button">SI</button> 
+    <input type="radio" style="display:none;"  name="dc" id="dc" value="2">  <button class="dc" type="button">NO</button>
     </center></p> 
     
-                                   <p><center>ESTADO CIVIL<br>
-    <input type="radio" style="display:none;" name="ec" id="ec" value="1">  <button class="ec" type="button">Soltero</button> 
-    <input type="radio" style="display:none;"  name="ec" id="ec" value="2">  <button class="ec" type="button">Casado</button>
+                                   <p><center><z>¿Tu última renovación?</z><br>
+    <input type="radio" style="display:none;" name="ec" id="ec" value="1">  <button class="ec" type="button">- 6 MESES</button> 
+    <input type="radio" style="display:none;"  name="ec" id="ec" value="2">  <button class="ec" type="button">+ 6 MESES</button>
+     <input type="radio" style="display:none;"  name="ec" id="ec" value="3">  <button class="ec" type="button">NO RENOVÉ</button>                                  
     </center></p>
                                    
-                                   <p><center>PERSONAS A ASEGURAR<br>
+                                   <p><center>Personas a asegurar<br>
     <input type="radio" style="display:none;" name="np" id="np" value="1">  <button class="np" type="button">1</button> 
     <input type="radio" style="display:none;"  name="np" id="np" value="2">  <button class="np" type="button">2</button>
     <input type="radio" style="display:none;"  name="np" id="np" value="3">  <button class="np" type="button">3</button>
     <input type="radio" style="display:none;"  name="np" id="np" value="4">  <button class="np" type="button">4 o +</button> 
     </center></p><br>
-                                   <center><button id="compara2" class="compara"><center style="font-size: 70%;">COMPARA</center></button> </center><br><br>
+                                   <center><button id="compara2" class="compara"><center style="font-size: 80%;">COMPARAR</center></button> </center><br><br>
                                </div>
                                    </div>
                                </form>
                                
                             </div>
                             <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                          
+                          <center><img src="imagenes/sello.png" id="selloid" style="margin-top: 2vh;"></center>
                            </div>
-                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+                            
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" >
                              
                                
                              <h4><img src="imagenes/check.png"> En solo dos pasos</h4><br>
@@ -413,7 +471,7 @@ margin-right: auto;">
                 
                 
              <div id="abajodiv" style="z-index: -1000;width: 100%;display: block;">
-                 <div class="container" style="background-color:#f8f8f8;width: 100%;margin-top: 15vh;">
+                 <div class="container" style="background-color:#f8f8f8;width: 100%;margin-top: 25vh;">
                      <div class="row">
                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0px;padding-right: 0px;">
                  <img src="imagenes/marcas2.png" id="marcasid">
@@ -424,57 +482,38 @@ margin-right: auto;">
                 <div class="container" style="background-color:#f8f8f8;width: 100%;">
                      <div class="row">
                         
-                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                             <center><h3><br>NOSOTROS</h3></center><br>
-                           <center><br><br><h6 id="textonos" style="text-align: justify;">+Línea Salud es nustro comparador de salud más sencillo.<br>+Pensado por y para cubrir las necesidades médicas.<br>+Contamos con las aseguradoras más importantes del mercado.<br>+Disponemos de ofertas personalizadas.</h6></center>
+                           <center><br><br><h6 id="textonos" style="text-align: justify;">1. Línea Salud es nustro comparador de salud más sencillo.<br>2. Pensado por y para cubrir las necesidades médicas.<br>3. Contamos con las aseguradoras más importantes del mercado.<br>4. Disponemos de ofertas personalizadas.</h6></center>
                             
-                            <center><img src="imagenes/sello.png" id="selloidp" style="margin-top: 15vh;"></center>
+                         
                          </div>  
 
                          
-                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-7">
+                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                           
-                           <!--<center> <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 50%;">
+                           <center style="display: none"> <div style="width: 50%;">
  
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
 
   
-  <div class="carousel-inner">
-    <div class="item active">
-      <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img src="imagenes/fondoopiones1.jpg"><br><br><h6>"Que fácil"</h6><h6>"Justo lo que buscaba"</h6><h6>"Han dado con lo que buscaba"</h6><h5>AJUSTADO A MIS NECESIDADES</h5></div>
+  
+    <div id="nosotrosdiv">
+        <h3>Clientes satisfechos</h3>
+      <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img style="width: 62px;" src="imagenes/fondoopiones1.jpg"><br><br><h6>"Que fácil"</h6><h6>"Justo lo que buscaba"</h6><h6>"Sin compromisos"</h6><h5>AJUSTADO A MIS NECESIDADES</h5></div>
+        <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img style="width: 62px;" src="imagenes/fondoopiones2.jpg"><br><br><h6>"De confianza"</h6><h6>"Al lado de mi casa"</h6><h6>"Que rápido"</h6><h5>EN SOLO 2 PASOS</h5></div>
         
     </div>
 
-    <div class="item">
-       <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img src="imagenes/fondoopiones2.jpg"><br><br><h6>"De confianza"</h6><h6>"Al lado de mi casa"</h6><h6>"Que rápido"</h6><h5>EN SOLO 2 PASOS</h5></div>
-    </div>
+  
 
-    <div class="item">
-       <div style="background-image: url('imagenes/fondoopiniones.png')"><br><img src="imagenes/fondoopiones3.jpg"><br><br><h6>"Ya estoy más tranquilo"</h6><h6>"Con diferentes descuentos"</h6><h6>"Es intuitivo"</h6><h5>SIN COMPROMISOS</h5></div>
-    </div>
-  </div>
-
+                              </div></center>
  
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
-  </a>
-                              </div></center>-->
- 
-                            <center><img src="imagenes/sello.png" id="selloid" style="margin-top: 15vh;"></center>
+                            <center><img src="imagenes/sello.png" id="selloidp" style="margin-top: 21vh;display:none;"></center>
                             
                          </div> 
                           
                                 
-                                
+                               
                                 
                            
                         </div>
@@ -559,7 +598,8 @@ margin-right: auto;">
                       
                    $( "#grande" ).hide();
                    $( "#pequeno" ).show();
-                        $( "h3" ).css("font-size","100%");
+                        $( "h3" ).css("font-size","80%");
+                        
                     }
                 else
                     {

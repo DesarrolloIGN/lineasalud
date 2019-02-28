@@ -47,7 +47,7 @@ gtag('config', 'UA-130595463-1');
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                <title>Linea salud</title>
-   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+  <link rel="icon" type="image/png" href="imagenes/favicon.png" />
                <link href="css\estilos.css" rel="stylesheet" type="text/css" />
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -316,19 +316,25 @@ gtag('config', 'UA-130595463-1');
                 var ec=localStorage.getItem("ec");
                 if(ec==1)
                     {
-                       ec='N';
+                       ec=1;
                     }
                 else if(ec==2)
                     {
-                        ec='S';
+                        ec=2;
+                    }
+                else if(ec==3)
+                    {
+                        ec=3;
                     }
                 
+                if(localStorage.getItem("heecho")=='nore')
+                             {
                 $.ajax({
 
               url: 'insertar.php',
               type: 'POST',
 
-              data: 'edad='+localStorage.getItem("edad")+'&ec='+localStorage.getItem("ec")+'&np='+localStorage.getItem("np")+'&dc='+localStorage.getItem("dc")+"&cp="+localStorage.getItem("cp")+"&telefono="+localStorage.getItem("telefono") +"&nombre="+localStorage.getItem("nombre")+'&utm_source='+localStorage.getItem("utm_source")+'&utm_medium='+localStorage.getItem("utm_medium")+'&utm_campaign='+localStorage.getItem("utm_campaign")+'&utm_term='+localStorage.getItem("utm_term")+'&utm_content='+localStorage.getItem("utm_content")+'&id_buyer='+localStorage.getItem("id_buyer"),
+              data: 'edad='+localStorage.getItem("edad")+'&ec='+localStorage.getItem("ec")+'&np='+localStorage.getItem("np")+'&dc='+localStorage.getItem("dc")+"&cp="+localStorage.getItem("cp")+"&telefono="+localStorage.getItem("telefono") +"&nombre="+localStorage.getItem("nombre")+'&utm_source='+localStorage.getItem("utm_source")+'&utm_medium='+localStorage.getItem("utm_medium")+'&utm_campaign='+localStorage.getItem("utm_campaign")+'&utm_term='+localStorage.getItem("utm_term")+'&utm_content='+localStorage.getItem("utm_content")+'&id_buyer='+localStorage.getItem("id_buyer")+'&var1='+dc+'&var3='+ec+'&var2='+localStorage.getItem("np")+'&source='+localStorage.getItem("source")+'&subsource='+subfuente,
                success: function(json) {
 
                      
@@ -338,100 +344,12 @@ gtag('config', 'UA-130595463-1');
                 }
 
                 })
-                if(localStorage.getItem("heecho")=='nore')
-                             {
-                                 
-                $.ajax({
-
-              url: 'https://api.leadexp.ignium.net/entrada/interno.php',
-              type: 'POST',
-
-              data: 'age='+edad+'&var1='+dc+'&family='+ec+'&var2='+localStorage.getItem("np")+"&cp="+localStorage.getItem("cp")+"&phone="+localStorage.getItem("telefono") +"&name="+localStorage.getItem("nombre")+'&subsource='+subfuente+'&id_buyer='+localStorage.getItem("id_buyer")+'&source='+localStorage.getItem("source")+"&lastname="+" "+'&navegador='+bowser.name+'&so='+navigator.appVersion,
-               success: function(json) {
-                   
-                $.ajax({
-
-              url: 'entradas.php',
-              type: 'POST',
-
-              data: 'datos='+json.Message,
-                    
-              success: function(json) {
-                   
-               }
-                   })
-                   
-                   
-                   
-                   
-                   
-                   
-                      if(json.Message >0)
-                     {
-                         var url  = "isengard.westeurope.cloudapp.azure.com/lineasaludremake/step3s.php?id="+json.Message+"";
-                         var id= localStorage.setItem("id",json.Message);
-                        
-                         
-                         $.ajax({
-                             
-                             
-
-              url: 'https://api.leadexp.ignium.net/sms/',
-              type: 'POST',
-
-              data: "telefono="+localStorage.getItem("telefono")+'&id='+json.Message+'&short='+1+'&url='+url+'&sender='+"Linea Salud"+'&mensaje='+"Descubre la OFERTA con el seguro médico perfecto PARA TI. ¡PINCHA QUÍ! "+'&id_buyer='+localStorage.getItem("id_buyer")+'&id_accounting='+localStorage.getItem("source")+'&ip_address='+localStorage.getItem('ip_address')+'&ip_address_forward='+localStorage.getItem('ip_address'),
-               success: function(json) {
-                   
-                   
-                   $.ajax({
-
-              url: 'entradas.php',
-              type: 'POST',
-
-              data: 'datos='+json.Message+'&tipo='+"sms",
-                    
-              success: function(json) {
-                   
-               }
-                   })
-                   
-                   $.ajax({
-
-              url: 'modificar.php',
-              type: 'POST',
-
-              data: 'id='+localStorage.getItem("id")+'&optin2='+1,
-               success: function(json) {
-
-                     
-
-
-
-                }
-
-                })
-
-                     
-
-
-
-                }
-
-                })
-                     
-                       
-                         
-                         
-                     }
-                     
-
-
-
-                }
-
-                })
-            }
-                localStorage.setItem("heecho",'re');
+                                  localStorage.setItem("heecho",'re');
+                             }
+                
+              
+            
+               
                 
                 
             });

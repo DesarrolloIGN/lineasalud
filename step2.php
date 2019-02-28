@@ -46,7 +46,7 @@ gtag('config', 'UA-130595463-1');
                <meta charset="utf-8">
                <meta http-equiv="X-UA-Compatible" content="IE=edge">
                <title>Linea salud</title>
-   <link rel="icon" type="image/png" href="imagenes/LineaSalud_Logo.png" />
+   <link rel="icon" type="image/png" href="imagenes/favicon.png" />
                <link href="css\estilos.css" rel="stylesheet" type="text/css" />
                <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -252,7 +252,7 @@ gtag('config', 'UA-130595463-1');
                                <div><center><h6><strong  style="color: white;">Teléfono</strong></h6></center></div><br>
                                
                              <input type="tel" id=tc placeholder="" required name="telefono" style="width: 100%;"><br><br>
-                               <center><button style="width: 100%;" id="compara3" class="compara"><center style="font-size: 151%;">COMPARA</center></button> </center><br><br>
+                               <center><button style="width: 100%;" id="compara3" class="compara"><center style="font-size: 151%;">COMPARAR</center></button> </center><br><br>
                                    
                            </div>
                             <div class="col-xs-0 col-sm-3 col-md-3 col-lg-4">
