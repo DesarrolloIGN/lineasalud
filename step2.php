@@ -207,7 +207,7 @@ gtag('config', 'UA-130595463-1');
                                     <div id="myModal" class="modal">
                                         <div class="modal-content">
                                             <span class="close">&times;</span>
-                                            <center><br><h5><strong>NECESITAMOS TU CONSENTIMIENTO</strong></h5><p style="color:black;">Acepto los <a  href='tyc.html'> términos y condiciones</a> y <a href='pp.html'>política de privacidad</a> de este sitio web.<br>Acepto recibir ofertas y publicidad de este sitio web por email, contacto telefónico y/o SMS.<br>Acepto recibir ofertas y publicidad por email, contacto teléfonico y/o SMS por los colaboradores de este sitio web.<br><br><button class="btn btn-success" style="margin-bottom: 3px;" id="aceptoall">Acepto<br></button><br><button   class="btn btn-ligth" id="noaceptoall">No Acepto</button></p></center>
+                                            <center><br><h5><strong>NECESITAMOS TU CONSENTIMIENTO</strong></h5><p style="color:black;">Acepto los <a  href='tyc.html'> términos y condiciones</a> y <a href='pp.html'>política de privacidad</a> de este sitio web.<br>Acepto recibir ofertas y publicidad de este sitio web por email, contacto telefónico y/o SMS.<br>Acepto recibir ofertas y publicidad por email, contacto teléfonico y/o SMS por los colaboradores de este sitio web.<br><br><button class="btn btn-success" style="margin-bottom: 3px;" id="aceptoall">ACEPTO<br></button><br><button   class="btn btn-ligth" id="noaceptoall">No Acepto</button></p></center>
                                         </div>
                                      </div>
                       <center><button id="myBtn" style="display:none;" type="button" class="btn btn-danger">Quiero informarme sobre un seguro de salud</button></center>
@@ -222,8 +222,8 @@ gtag('config', 'UA-130595463-1');
                         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                            <br><div><center><h3>¡Estas a <strong> un click </strong>
- de recibir <strong>tu oferta exclusiva</strong></h3></center>
+                            <br><div><center><h3><strong>¡Estás a  un click
+ de recibir tu oferta exclusiva!</strong></h3></center>
             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
@@ -239,17 +239,17 @@ gtag('config', 'UA-130595463-1');
                             </div>
                             
                            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
-                               <br><br><br><br>
+                               <br><br>
                                
-                          <div><center><h6><strong  style="color: white;">Código Postal</strong></h6></center></div><br>
+                          <div><center><h5><strong  style="color: white;">Código Postal</strong></h5></center></div><br>
                                
                                 
                              <input type="number" id="cpid"  placeholder=""required name="cp" style="width: 100%;"><br><br>
                                
-                          <div><center><h6><strong  style="color: white;">Nombre Completo</strong></h6></center></div><br>
+                          <div><center><h5><strong  style="color: white;">Nombre y Apellidos</strong></h5></center></div><br>
                              <input type="text" id=nc placeholder="" required name="nombre" style="width: 100%;"><br><br>
                                
-                               <div><center><h6><strong  style="color: white;">Teléfono</strong></h6></center></div><br>
+                               <div><center><h5><strong  style="color: white;">Teléfono Móvil</strong></h5></center></div><br>
                                
                              <input type="tel" id=tc placeholder="" required name="telefono" style="width: 100%;"><br><br>
                                <center><button style="width: 100%;" id="compara3" class="compara"><center style="font-size: 151%;">COMPARAR</center></button> </center><br><br>
@@ -442,7 +442,7 @@ gtag('config', 'UA-130595463-1');
                     
                     else{
                         $( "#cpid" ).val("");
-                        $("#cpid").attr("placeholder", "Ponga un cp con 5 digitos");
+                        $("#cpid").attr("placeholder", "Ponga un CP con 5 dígitos");
                         v1=false;
                     }
                         

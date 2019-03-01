@@ -168,25 +168,81 @@ gtag('config', 'UA-130595463-1');
 			</div>
 		</header>
                     
-               <div style="width: 100%; height: 61vh; background-size: cover;background-image: url('imagenes/apple.jpg');" class="imagen">
+               <div id="fotoarribagrande" style="width: 100%;  background-size: cover;background-image: url('imagenes/apple.jpg');" class="imagen">
                   <div class="tg-homeslider tg-haslayout">
                       <div id="arriba1">
                      <img src="imagenes/arriba.png" alt="arriba" class="imagen"> 
                           
                           </div>
                       <style>
-        @media (max-width: 400px) 
+        @media (max-width: 1400px) 
+{
+ 
+    #fotoarribagrande
+    {
+        height: 65vh;
+    }
+    
+
+   
+
+    
+}
+        </style>
+                      <style>
+        @media (min-width: 1400px) 
+{
+
+    #fotoarribagrande
+    {
+        height: 70vh;
+    }
+    
+    
+
+    
+}
+        </style>
+                      <style>
+                          
+                          
+                          
+        @media (max-width: 500px) 
 {
 
     
     #tg-wrapper {
-	margin-top:-30%;
+	margin-top:-55vw;
 	
 }
     
   
     
 }
+@media (min-width: 500px) 
+{
+
+    
+    #tg-wrapper {
+	margin-top:-20%;
+	
+}
+    
+  
+    
+}
+@media (min-width: 800px) 
+{
+
+    
+    #tg-wrapper {
+	margin-top:0%;
+	
+}
+    
+  
+    
+}                          
         </style>
                       <style>
         @media (max-width: 600px) 
@@ -251,6 +307,8 @@ gtag('config', 'UA-130595463-1');
     
 
     
+
+    
     
     
 
@@ -273,6 +331,10 @@ gtag('config', 'UA-130595463-1');
 #nosotrosdiv
     {
         margin-top:27vh;
+    }
+    #fotoarribagrande
+    {
+        height: 55vh;
     }
     
 
@@ -303,6 +365,8 @@ gtag('config', 'UA-130595463-1');
     
 
     
+
+    
     
     
 
@@ -320,8 +384,8 @@ gtag('config', 'UA-130595463-1');
                         <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                            <br><div><center><h3><strong>Comparamos las mejores ofertas 
- en seguros de salud</strong></h3></center>
+                            <br><div><center><h3><strong>Comparamos las mejores <j style="color: #f76201;">ofertas</j>
+ en <j style="color: #f76201;">seguros de salud</j></strong></h3></center>
             </div>
                         </div>
                          <br>
@@ -332,7 +396,7 @@ gtag('config', 'UA-130595463-1');
                </div>
                      <div class="container" id="grande">
                         <div class="row">
-                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"  style="margin-top:3%;" >
+                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5"  style="margin-top:7%;" >
                              <br>
                                
                              <h4><img src="imagenes/check.png"> En solo dos pasos</h4><br>
@@ -342,7 +406,7 @@ gtag('config', 'UA-130595463-1');
                             </div>
                             
                            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
-                          
+                          <center><img src="imagenes/sello.png" id="selloidp" style="margin-top: 3vh;width: 85%;margin-left: -30vw;"></center>
                            </div>
                            <div class="col-xs-0 col-sm-5 col-md-5 col-lg-5" >
                                
@@ -359,7 +423,7 @@ margin-right: auto;">
                                     
                                   
                                       
-                                  <p><center><z>Edad</z><br>
+                                  <p style="margin: 0px 0 16px;"><center><z>Edad</z><br>
     <input type="radio" style="display:none;" name="edad" id="edad"  value="1">  <button class="edad" type="button">- 40</button> 
     <input type="radio" style="display:none;"  name="edad" id="edad" value="2">  <button class="edad" type="button">41 - 45</button>
     <input type="radio" style="display:none;"  name="edad" id="edad" value="3">  <button class="edad" type="button">46 - 60</button>
@@ -471,10 +535,10 @@ margin-right: auto;">
                 
                 
              <div id="abajodiv" style="z-index: -1000;width: 100%;display: block;">
-                 <div class="container" style="background-color:#f8f8f8;width: 100%;margin-top: 25vh;">
+                 <div class="container" style="background-color:#f8f8f8;width: 100%;margin-top: 35vh;">
                      <div class="row">
                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-left: 0px;padding-right: 0px;">
-                 <img src="imagenes/marcas2.png" id="marcasid">
+                 <img src="imagenes/marcas2.png" id="marcasid" style="margin-top: -1.5%;">
                  <img src="imagenes/marcas.png" id="marcasidp" style="width: 100%;">
                          </div>
                      </div>
@@ -483,8 +547,8 @@ margin-right: auto;">
                      <div class="row">
                         
                         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                            <center><h3><br>NOSOTROS</h3></center><br>
-                           <center><br><br><h6 id="textonos" style="text-align: justify;">1. Línea Salud es nustro comparador de salud más sencillo.<br>2. Pensado por y para cubrir las necesidades médicas.<br>3. Contamos con las aseguradoras más importantes del mercado.<br>4. Disponemos de ofertas personalizadas.</h6></center>
+                            <center><h3><br><strong>Nosotros</strong></h3></center>
+                           <center><br><h6 id="textonos" style="text-align: justify;"><img src="imagenes/check2.png" style="width: 3%;"> Línea Salud es nuestro comparador de salud más sencillo.<br><img src="imagenes/check2.png" style="width: 3%;" >  Pensado por y para cubrir las necesidades médicas.<br><img src="imagenes/check2.png" style="width: 3%;">  Contamos con las aseguradoras más importantes del mercado.<br><img src="imagenes/check2.png" style="width: 3%;">  Disponemos de ofertas personalizadas.</h6></center>
                             
                          
                          </div>  
@@ -508,7 +572,7 @@ margin-right: auto;">
 
                               </div></center>
  
-                            <center><img src="imagenes/sello.png" id="selloidp" style="margin-top: 21vh;display:none;"></center>
+                            
                             
                          </div> 
                           
@@ -611,7 +675,7 @@ margin-right: auto;">
                  $( ".edad" ).click(function() {
             
                  $( ".edad" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
-                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                 $(this).css("background", "rgb(130, 213, 248)");
                      
                 console.log($(this).prev().val());
                      edad=$(this).prev().val();
@@ -621,7 +685,7 @@ margin-right: auto;">
                 $( ".dc" ).click(function() {
            
                 $( ".dc" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
-                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                 $(this).css("background", "rgb(130, 213, 248)");
                 console.log($(this).prev().val());
                     dc=$(this).prev().val();
                  
@@ -630,7 +694,7 @@ margin-right: auto;">
                 $( ".ec" ).click(function() {
             
                 $( ".ec" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
-                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                $(this).css("background", "rgb(130, 213, 248)");
                 console.log($(this).prev().val());
                  ec=$(this).prev().val();
                 
@@ -639,7 +703,7 @@ margin-right: auto;">
                 $( ".np" ).click(function() {
             
                  $( ".np" ).css("background", "linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%)");
-                 $(this).css("background", "linear-gradient(to bottom, #fff 5%, #9FCD28 100%)");
+                $(this).css("background", "rgb(130, 213, 248)");
                 console.log($(this).prev().val());
                     np=$(this).prev().val();
                  

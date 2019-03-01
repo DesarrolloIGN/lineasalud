@@ -33,11 +33,11 @@
 
 #aceptoall
 {
-    padding: 5px 39px;
+    padding: 16px 35%;
     line-height: 26px;
-    border: 2px solid #23C787;
+    border: 2px solid #89c403;
     border-radius: 4px;
-background: #23C787;
+background: #89c403;
 color: #FFFFFF;
 font-size: 20px;
 font-weight: bold;
@@ -73,21 +73,11 @@ button
 }
 
 .edad,.dc,.ec,.np  {
-	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
-	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
-	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
-	background-color:#ffffff;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
+	
+	background-color: rgb(255, 255, 255);
+	
 	border-radius:6px;
-	border:1px solid #dcdcdc;
+	
 	display:inline-block;
 	cursor:pointer;
 	color:#146289;
@@ -96,17 +86,11 @@ button
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+	
 }
 .edad:hover,.dc:hover,.ec:hover,.np:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
-	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
-	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
-	background-color:#f6f6f6;
+	background:#bfbfbf;
+	background-color:#bfbfbf;
 }
 .edad:active,.dc:active,.ec:active,.np:active {
 	position:relative;
@@ -263,7 +247,7 @@ input[type="color"],
 	display: inline-block;
 	vertical-align: middle;
 	border: 1px solid #ddd;
-	text-transform: capitalize;
+	
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -471,7 +455,7 @@ address { font-style: italic; }
 	border:2px solid #ddd;
 	display: inline-block;
 	vertical-align: middle;
-	text-transform: capitalize;
+	
 	font:500 16px/56px 'Montserrat', Verdana, Helvetica, sans-serif;
 }
 .tg-btn:hover,
