@@ -204,6 +204,20 @@ gtag('config', 'UA-130595463-1');
     
 }
         </style>
+                      <style>
+        @media (min-width: 769px) 
+{
+
+    
+    #datos
+    {
+        margin-left: -2%
+    }
+    
+    
+    
+}
+        </style>
                                     <div id="myModal" class="modal">
                                         <div class="modal-content">
                                             <span class="close">&times;</span>
@@ -238,7 +252,7 @@ gtag('config', 'UA-130595463-1');
                            
                             </div>
                             
-                           <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
+                           <div id=datos class="col-xs-12 col-sm-5 col-md-5 col-lg-3">
                                <br><br>
                                
                           <div><center><h5><strong  style="color: white;">Código Postal</strong></h5></center></div><br>
